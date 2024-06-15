@@ -38,7 +38,7 @@ def criar_dataframe():
         "Equipe": []
     }
 
-    # Dados para periodos
+    # Dados para períodos
     for periodo in ["Anual", "Mensal", "Semanal", "Diário"]:
         valores = gerar_valores_aleatorios()
         dados["Dados"].extend(["Cupons de recomendação", "Tempo online (h)", "Equipe mais escolhida"])
@@ -80,9 +80,9 @@ app.layout = html.Div(
     children=[
         html.Div(id='cabecalho', children=[
             html.Img(id='img', src='/assets/image.png', alt='logo dashboard', style={'width': '100px'}),
-            html.H1(children=' Turbo Analytics')
+            html.H1(children='Turbo Analytics')
         ]),
-        html.H2(children='"Mudamos a forma de análisar as corridas"'),
+        html.H2(children='"Mudamos a forma de analisar as corridas"'),
         html.P(children='Esta plataforma serve para ver e analisar as equipes mais escolhidas, quantidades de cupons e tempo dentro da plataforma'),
         dcc.Tabs(id='tabs', value='tab-periodos', children=[
             dcc.Tab(id='troca_secao', label='Períodos', value='tab-periodos', children=[
