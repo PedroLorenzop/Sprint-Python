@@ -5,7 +5,7 @@ import random
 
 app = Dash(__name__)
 
-equipes = ['Mahindra', 'Mercedes', 'Audi', 'BMW', 'Jaguar', 'Nissan', 'Porsche']
+equipes = ['Mahindra', 'ABT', 'Andretti', 'Ds Penske', 'Jaguar', 'Envision', 'ERT', 'Jaguar', 'Maserati', 'McLarem', 'Nissan', 'Porsche']
 cidades_populosas = ['São Paulo', 'Rio de Janeiro', 'Brasília', 'Salvador', 'Fortaleza', 'Belo Horizonte', 'Manaus', 'Curitiba', 'Recife', 'Goiânia']
 
 def gerar_valores_cidades():
@@ -57,10 +57,10 @@ def criar_dataframe():
     return pd.DataFrame(dados)
 
 cor_mapa = {
-    'Anual': '#49CF8F',
-    'Mensal': '#3744B9',
-    'Semanal': '#4BC7D8',
-    'Diário': '#4B6AD8',
+    'Anual': '#FF0000',
+    'Mensal': '#FF833D',
+    'Semanal': '#FF2424',
+    'Diário': '#FF4C00',
 }
 
 cor_cidade = {

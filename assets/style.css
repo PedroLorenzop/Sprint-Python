@@ -4,7 +4,7 @@
 }
 
 body {
-   background: linear-gradient(to top, black, #8B0000);
+   background: linear-gradient(to top, #750000, #1f1f1f 40%);
     color: white;
     font-family: "Montserrat", sans-serif;
 }
@@ -62,7 +62,7 @@ h2, p {
 }
 
 .Select-control{
-    background-color: #5aa7ff !important;  /*Fundo da parte que mostra a opção escolhida*/
+    background-color: #dc3232 !important;  /*Fundo da parte que mostra a opção escolhida*/
     color: #000000 !important;  /*Cor da parte que mostra a opção escolhida, não ta funcionando aparentemente kkkkkk, mas melhor prevenir do que remediar*/
     cursor: pointer;
 }
